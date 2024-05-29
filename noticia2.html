@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/AAestilomioarticulos.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image" href="img/logo.webp" />
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo empresa(-->
+                <img src="img/logo.webp" alt="pingüino" width="30" height="24" class="d-inline-block align-text-tops">
+                <span class="text-warning">Inicio</span>
+            </a>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <!-- Elementoss -->
+                <a class="nav-link  text-warning" aria-current="page" href="lanzamientos.html">Nuevos lanzamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="guias.html">Guías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="noticias.html">Noticias </a>
+              </li>
+              <li class="nav-item">
+               
+                <a class="nav-link  text-warning" href="about.html">About</a>
+              </li>
+              <!-- Menú desplegable -->
+              <li class="nav-item dropdown">
+                <a class="nav-link text-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sponsor
+                </a>
+                <ul class="dropdown-menu bg-warning">
+                  <li><a class="dropdown-item " href="#">Google</a></li>
+                  <li><a class="dropdown-item" href="#">IES Alixar</a></li>
+                  <li><a class="dropdown-item" href="#">wikipedia</a></li>
+                </ul>
+              </li>
+              <li>
+                <!-- Zona de búsqueda-->
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form>
+                </div>
+              </li>
+              <li>
+                <!--SILUETA D PERSONA-->
+                <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"  aria-controls="staticBackdrop">
+                  <img src="img/silueta.png" alt="Zona de usuarios">
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- OFFCANVAS CON EL FORMULARIO DE INICIO DE SESIO O REGISTRO-->
+      <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" data-bs-theme="dark" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning" id="staticBackdropLabel">Bienvenido</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <form novalidate class="px-4 py-3 needs-validation">
+              <div class="form-group">
+                <label class="text-warning" for="exampleDropdownFormEmail1">Dirección de Email </label>
+                <input required type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@dominio.com">
+              </div>
+              <div class="form-group">
+                <label class="text-warning"  for="exampleDropdownFormPassword1">Contraseña</label>
+                <input required type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Una contraseña segura">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Recordarme
+                </label>
+              </div>
+              <button type="submit" class="btn btn-outline-warning">Acceder</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-warning" href="registro.html">¿Aún no tienes cuenta? Regístrate</a>
+            <a class="dropdown-item text-warning" href="olvido.html">¿Has olvidado la contraseña?</a>
+          </div>
+        </div>
+      </div>
+        <!-- FIN DEL OFFCANVAS-->
+        <div class="separacion"></div>
+
+        <div class="container mt-5">
+          <header class="text-center mb-4">
+              <h1 class="text-warning">Disputa entre Antena 3 y Mojang por la violencia en Minecraft</h1>
+          </header>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Antecedentes de la Disputa</h2>
+                <p class="card-text">
+                    En una noticia inesperada, Antena 3 ha anunciado una posible disputa legal con Mojang, la empresa detrás del popular juego Minecraft. Según fuentes internas, Antena 3 estaría preocupada por el nivel de violencia presente en el juego y su posible influencia en los jóvenes.
+                </p>
+                  <img src="img/niñominecraft.jpeg" class="card-img-top" alt="Imagen del juego">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Posiciones de las Partes</h2>
+                  
+                <p>
+                    Antena 3 argumenta que la violencia en Minecraft, aunque representada de manera pixelada, puede tener un impacto negativo en los niños y adolescentes que juegan el juego. Por otro lado, Mojang defiende que Minecraft es un juego de construcción y creatividad, donde los jugadores pueden elegir su estilo de juego y no se fomenta la violencia.
+                </p>
+
+                <strong>Impacto en la Comunidad</strong>
+                <p>
+                    Esta disputa ha generado un debate entre los jugadores y la comunidad en línea. Mientras algunos apoyan la postura de Antena 3 y argumentan que la violencia en los videojuegos debe ser regulada, otros defienden la libertad creativa y el enfoque no violento de Minecraft.
+                </p>
+
+                <strong>Próximos Pasos</strong>
+                <p>
+                    Se espera que ambas partes intenten resolver la disputa de manera amistosa, pero no se descarta la posibilidad de acciones legales. Mientras tanto, los jugadores de Minecraft continúan disfrutando del juego, aunque con la incertidumbre sobre su futuro.
+                </p>
+                  <img src="img/minecraft2.webp" class="card-img-top" alt="Otra imagen del juego">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Conclusión</h2>
+                  <p class="card-text">
+                    En resumen, la disputa entre Antena 3 y Mojang por la violencia en Minecraft refleja un debate más amplio sobre la influencia de los videojuegos en los jóvenes y la responsabilidad de los desarrolladores y los medios de comunicación. Mientras que Antena 3 busca regular la violencia en el juego por preocupaciones sobre su impacto en los niños, Mojang defiende la libertad creativa y la ausencia de incentivos violentos en Minecraft. La resolución de esta disputa tendrá implicaciones significativas para el futuro de la industria del juego y la percepción pública de los videojuegos.
+                  </p>
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Comentarios</h2>
+                  <form>
+                      <div class="form-group">
+                          <textarea class="form-control bg-secondary" id="comment" rows="5" placeholder="Escribe tu comentario aquí..."></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+        
+
+
+      <!--FOOTER-->
+    <footer class="footer mt-auto bg-black">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="text-warning">Sobre Nosotros</h5>
+                  <p class="text-warning">Somos una página que quiere traerte las novedades más jugosas sobre el mundillo de los videojuegos.</p>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 ">
+                  <h5 class="text-warning">Síguenos</h5>
+                  <a href="#" class="me-2"><img class="social" src="img/Facebook_logo_(square).png" alt="facebook"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/instagram.png" alt="instagram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/telegram.webp" alt="telegram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/X_logo_2023_(white).png" alt="X(antes conocido como twitter)"></a>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p class="text-warning">&copy; 2024 Keiner Hurtado. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

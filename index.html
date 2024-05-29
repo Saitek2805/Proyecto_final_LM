@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/AAestilomio.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/logo.webp" />
+</head>
+<body>
+  <nav id="navbar" class="navbar navbar-dark navbar-expand-lg bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <!-- Logo empresa(-->
+            <img src="img/logo.webp" alt="pingüino" width="30" height="24" class="d-inline-block align-text-tops">
+            <span class="text-warning">Inicio</span>
+        </a>
+      
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <!-- Elementoss -->
+            <a class="nav-link  text-warning" aria-current="page" href="lanzamientos.html">Nuevos lanzamientos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="guias.html">Guías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="noticias.html">Noticias </a>
+          </li>
+          <li class="nav-item">
+           
+            <a class="nav-link  text-warning" href="about.html">About</a>
+          </li>
+          <!-- Menú desplegable -->
+          <li class="nav-item dropdown">
+            <a class="nav-link text-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sponsor
+            </a>
+            <ul class="dropdown-menu bg-warning">
+              <li><a class="dropdown-item " href="#">Google</a></li>
+              <li><a class="dropdown-item" href="#">IES Alixar</a></li>
+              <li><a class="dropdown-item" href="#">wikipedia</a></li>
+            </ul>
+          </li>
+          <li>
+            <!-- Zona de búsqueda-->
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </li>
+          <li>
+            <!--SILUETA D PERSONA-->
+            <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"  aria-controls="staticBackdrop">
+              <img src="img/silueta.png" alt="Zona de usuarios">
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- OFFCANVAS CON EL FORMULARIO DE INICIO DE SESIO O REGISTRO-->
+  <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" data-bs-theme="dark" aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title text-warning" id="staticBackdropLabel">Bienvenido</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div>
+        <form novalidate class="px-4 py-3 needs-validation">
+          <div class="form-group">
+            <label class="text-warning" for="exampleDropdownFormEmail1">Dirección de Email </label>
+            <input required type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@dominio.com">
+          </div>
+          <div class="form-group">
+            <label class="text-warning"  for="exampleDropdownFormPassword1">Contraseña</label>
+            <input required type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Una contraseña segura">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+              Recordarme
+            </label>
+          </div>
+          <button type="submit" class="btn btn-outline-warning">Acceder</button>
+        </form>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item text-warning" href="registro.html">¿Aún no tienes cuenta? Regístrate</a>
+        <a class="dropdown-item text-warning" href="olvido.html">¿Has olvidado la contraseña?</a>
+      </div>
+    </div>
+  </div>
+    <!-- FIN DEL OFFCANVAS-->
+    <div class="separacion"></div>
+    <div class="container">
+      <div class="row triple justify-content-around ">
+        <div class="col-lg-5 doble">
+          <!-- CRRUSEL-->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <a href="noticia2.html">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/niñominecraft.jpeg" class="hover d-block w-100" alt="niño jugando al minecraft">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-light text-with-border">Antena 3 contra Mojang</h5>
+                    <p class="text-light text-with-border">¿Es minecraft uno de los juegos más violentos de la historia?</p>
+                  </div>
+                </div>
+              </a>
+              
+              <div class="carousel-item" data-bs-interval="2000">
+                <a href="noticia3.html">
+                  <img src="img/carrusel2.webp"   class=" d-block w-100" alt="videojuego Skull and Bones">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-light text-with-border">El primer juego AAAA</h5>
+                  <p class="text-light text-with-border">¿Revolución en la insdustria o enorme fiasco?</p>
+                </div>
+                </a>
+                
+              </div>
+              <div class="carousel-item">
+                <a href="noticia4.html"><img src="img/carrusel3.jpeg" class="hover d-block w-100" alt="Logo Sweet baby inc">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-light text-with-border" >¿Has oido hablar de ellos?</h5>
+                    <p class="text-light text-with-border">Quiénes son Sweet Baby Inc y a qué se dedican</p>
+                  </div>
+                </a>
+                
+                
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--FIN CARRUSEL-->
+        </div>
+        <div class="col-lg-2 triple ">
+          <!-- INICIO ARTICULOS 1 -->
+          <h5 class="text-warning">Lo más popular</h5>
+          <a href="lanzamiento1.html"><div class="card mb-3 triple">
+            <img src="img/consolas.webp " class="card-img-top tarjeta zoom" alt="muchas consolas">
+            <div class="card-body">
+              <h5 class="card-title">El futuro del gaming</h5>
+              <p class="card-text">La próxima generación: Desvelada la próxima generación de consolas con sorprendentes innovaciones</p>
+              <p class="card-text"><small class=" text-light">Hace 5 días</small></p>
+            </div>
+          </div></a>
+          
+          
+          <!-- FIN ARTICULOS 1 -->
+        </div>
+        <div class="col-lg-2 triple">
+          <!-- INICIO ARTICULOS 2 -->
+          <h5 class="text-warning">Última reseña</h5>
+          <a href="lanzamiento2.html">
+            <div class="card mb-3 triple">
+            <img src="img/reseña1.jpg" class="card-img-top tarjeta zoom" alt="SquadBusters">
+              <div class="card-body">
+               <h5 class="card-title">La nueva entrega de SuperCell</h5>
+                <p class="card-text">¿Has oído hablar de ella? Te contamos todo lo que necesitas saber sobre lo último de SuperCell</p>
+                <p class="card-text"><small class=" text-light">Hace 7h</small></p>
+              </div>
+            </div>
+          </a>
+          
+          <!-- FIN ARTICULOS 2 -->
+        </div>
+        <div class="col-lg-2 quintuple ">
+          <!-- INICIO LONGO -->
+          <h5 class="text-warning">Tambien te puede interesar</h5>
+          <div class="card mb-3">
+            <a href="lanzamiento3.html"><img src="img/vr.jpg" class="card-img-top lateral zoom" alt="Persona con un vr kit"></a>
+            
+            <div class="card-body">
+              
+              <a href="lanzamiento3.html"> <h5 class="card-title">Nueva tecnología revoluciona la realidad virtual</h5></a>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <a href="guia2.html"><img src="img/apocalipsisz.jpg" class="card-img-top lateral zoom" alt="Apocalipsis Z"></a>
+            
+            <div class="card-body">
+              
+              <a href="guia2.html"><h5 class="card-title">Guía de supervivencia: Domina cada nivel en "Apocalipsis Z"</h5></a>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <a href="lanzamiento4.html"><img src="img/desierto.jpg " class="card-img-top lateral zoom" alt="Imagen de Kenshi"></a>
+            <div class="card-body">
+              <a href="lanzamiento4.html"><h5 class="card-title">Reseña rápida: "Fronteras Desérticas" redefine los juegos de mundo abierto</h5></a>
+            </div>
+          </div>
+          <div class="card mb-3 esconder ">
+            <a href="guia1.html"> <img src="img/misterios.avif " class="card-img-top lateral zoom" alt="Captura de Europa Universalis 4"></a>
+            
+            <div class="card-body">
+              
+              <a href="guia1.html"><h5 class="card-title">Descubre los secretos ocultos en la última actualización de "Misterios Antiguos"</h5></a>
+            </div>
+          </div>
+          
+          <!-- FINo -->
+        </div>
+        
+      </div>
+      <div class="row noticias">
+        
+        <div class="col-9">
+          <h1 class="text-warning">Mantente al día</h1>
+          <div class="container mt-5 ">
+            <div class="card ancho">
+                <img src="img/noticia1.jpg" class="card-img-top" alt="Noticia sobre el dlc de Elden Ring">
+                <div class="card-body">
+                    <a href="noticia1.html"><h1 class="card-title">Revive el caos de las Tierras Intermedias</h1></a>
+                    <div class="card-text text-light">
+                        <span class="date ">23 de mayo de 2024</span> | 
+                        <span class="author">Por Keiner Hurtado</span>
+                    </div>
+                    <p class="card-text mt-3">
+                        Tras disfrutar del último trailer para la ansiada expasión de contenido de la obra de Miyazaki se siembra el caos en las redes sociales.
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer mt-auto bg-black">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="text-warning">Sobre Nosotros</h5>
+                  <p class="text-warning">Somos una página que quiere traerte las novedades más jugosas sobre el mundillo de los videojuegos.</p>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 ">
+                  <h5 class="text-warning">Síguenos</h5>
+                  <a href="#" class="me-2"><img class="social" src="img/Facebook_logo_(square).png" alt="facebook"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/instagram.png" alt="instagram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/telegram.webp" alt="telegram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/X_logo_2023_(white).png" alt="X(antes conocido como twitter)"></a>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p class="text-warning">&copy; 2024 Keiner Hurtado. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </footer>
+
+  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

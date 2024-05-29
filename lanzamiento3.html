@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/AAestilomioarticulos.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image" href="img/logo.webp" />
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo empresa(-->
+                <img src="img/logo.webp" alt="pingüino" width="30" height="24" class="d-inline-block align-text-tops">
+                <span class="text-warning">Inicio</span>
+            </a>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <!-- Elementoss -->
+                <a class="nav-link  text-warning" aria-current="page" href="lanzamientos.html">Nuevos lanzamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="guias.html">Guías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="noticias.html">Noticias </a>
+              </li>
+              <li class="nav-item">
+               
+                <a class="nav-link  text-warning" href="about.html">About</a>
+              </li>
+              <!-- Menú desplegable -->
+              <li class="nav-item dropdown">
+                <a class="nav-link text-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sponsor
+                </a>
+                <ul class="dropdown-menu bg-warning">
+                  <li><a class="dropdown-item " href="#">Google</a></li>
+                  <li><a class="dropdown-item" href="#">IES Alixar</a></li>
+                  <li><a class="dropdown-item" href="#">wikipedia</a></li>
+                </ul>
+              </li>
+              <li>
+                <!-- Zona de búsqueda-->
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form>
+                </div>
+              </li>
+              <li>
+                <!--SILUETA D PERSONA-->
+                <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"  aria-controls="staticBackdrop">
+                  <img src="img/silueta.png" alt="Zona de usuarios">
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- OFFCANVAS CON EL FORMULARIO DE INICIO DE SESIO O REGISTRO-->
+      <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" data-bs-theme="dark" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning" id="staticBackdropLabel">Bienvenido</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <form novalidate class="px-4 py-3 needs-validation">
+              <div class="form-group">
+                <label class="text-warning" for="exampleDropdownFormEmail1">Dirección de Email </label>
+                <input required type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@dominio.com">
+              </div>
+              <div class="form-group">
+                <label class="text-warning"  for="exampleDropdownFormPassword1">Contraseña</label>
+                <input required type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Una contraseña segura">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Recordarme
+                </label>
+              </div>
+              <button type="submit" class="btn btn-outline-warning">Acceder</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-warning" href="registro.html">¿Aún no tienes cuenta? Regístrate</a>
+            <a class="dropdown-item text-warning" href="olvido.html">¿Has olvidado la contraseña?</a>
+          </div>
+        </div>
+      </div>
+        <!-- FIN DEL OFFCANVAS-->
+        <div class="separacion"></div>
+
+        <div class="container mt-5">
+          <header class="text-center mb-4">
+              <h1 class="text-warning">Nueva Tecnología VR de Disney: La Alfombra que Permite el Desplazamiento Vertical</h1>
+          </header>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Introducción</h2>
+                <p class="card-text">
+                    Disney ha sorprendido al mundo con el anuncio de una innovadora tecnología VR que promete revolucionar la forma en que experimentamos la realidad virtual. Se trata de una alfombra especial que permite el desplazamiento vertical, abriendo nuevas posibilidades para la inmersión en mundos virtuales y experiencias interactivas.
+                </p>
+                  <img src="img/vr.jpg" class="card-img-top" alt="persona corriendo con set vr">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Funcionamiento</h2>
+                  
+                <p>
+                    La alfombra de realidad virtual de Disney utiliza sensores y tecnología de seguimiento avanzada para detectar el movimiento del usuario. Gracias a su diseño único, los usuarios pueden caminar, correr e incluso saltar verticalmente dentro del mundo virtual, creando una sensación de movimiento sin precedentes.
+                </p>
+
+                <strong>Aplicaciones Potenciales</strong>
+                <p>
+                    Esta tecnología tiene aplicaciones potenciales en una amplia variedad de campos, desde el entretenimiento hasta la educación y la salud. En el ámbito del entretenimiento, la alfombra de VR de Disney podría utilizarse para crear experiencias temáticas inmersivas en parques de atracciones y centros de entretenimiento. En el ámbito educativo, podría ser una herramienta poderosa para la enseñanza y el aprendizaje, permitiendo a los estudiantes explorar entornos virtuales de manera interactiva y participativa.
+                </p>
+
+                <strong>Reacciones de la Comunidad</strong>
+                <p>
+                    La comunidad de entusiastas de la realidad virtual ha recibido con entusiasmo la noticia de la alfombra de VR de Disney, destacando su potencial para mejorar la inmersión y la experiencia del usuario en juegos y aplicaciones de realidad virtual. Muchos esperan con ansias experimentar esta tecnología innovadora por sí mismos y descubrir sus posibilidades.
+                </p>
+
+                <strong>Próximos Pasos</strong>
+                <p>
+                    Aunque aún no se ha anunciado una fecha de lanzamiento oficial para la alfombra de VR de Disney, se espera que la compañía continúe trabajando en su desarrollo y perfeccionamiento en los próximos meses. Mientras tanto, la comunidad de desarrolladores y entusiastas de la realidad virtual espera con impaciencia las nuevas experiencias que esta tecnología revolucionaria hará posible.
+                </p>
+                  <img src="img/vr2.webp" class="card-img-top" alt="Imagen alfombra">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Conclusión</h2>
+                  <p class="card-text">
+                    La alfombra de realidad virtual de Disney representa un avance significativo en la tecnología de inmersión, ofreciendo nuevas posibilidades para la experiencia del usuario en el mundo virtual. Con su capacidad para el desplazamiento vertical, esta innovación promete transformar no solo el entretenimiento, sino también la educación y otros campos. La entusiasta respuesta de la comunidad y la anticipación por sus aplicaciones futuras indican un emocionante camino por delante en el desarrollo y la adopción de esta tecnología revolucionaria.
+                  </p>
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Comentarios</h2>
+                  <form>
+                      <div class="form-group">
+                          <textarea class="form-control bg-secondary" id="comment" rows="5" placeholder="Escribe tu comentario aquí..."></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+        
+      <!--FOOTER-->
+    <footer class="footer mt-auto bg-black">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="text-warning">Sobre Nosotros</h5>
+                  <p class="text-warning">Somos una página que quiere traerte las novedades más jugosas sobre el mundillo de los videojuegos.</p>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 ">
+                  <h5 class="text-warning">Síguenos</h5>
+                  <a href="#" class="me-2"><img class="social" src="img/Facebook_logo_(square).png" alt="facebook"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/instagram.png" alt="instagram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/telegram.webp" alt="telegram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/X_logo_2023_(white).png" alt="X(antes conocido como twitter)"></a>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p class="text-warning">&copy; 2024 Keiner Hurtado. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

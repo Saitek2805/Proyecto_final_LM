@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenshi</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/AAestilomioarticulos.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image" href="img/logo.webp" />
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <!-- Logo empresa(-->
+                <img src="img/logo.webp" alt="pingüino" width="30" height="24" class="d-inline-block align-text-tops">
+                <span class="text-warning">Inicio</span>
+            </a>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <!-- Elementoss -->
+                <a class="nav-link  text-warning" aria-current="page" href="lanzamientos.html">Nuevos lanzamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="guias.html">Guías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="noticias.html">Noticias </a>
+              </li>
+              <li class="nav-item">
+               
+                <a class="nav-link  text-warning" href="about.html">About</a>
+              </li>
+              <!-- Menú desplegable -->
+              <li class="nav-item dropdown">
+                <a class="nav-link text-warning dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sponsor
+                </a>
+                <ul class="dropdown-menu bg-warning">
+                  <li><a class="dropdown-item " href="#">Google</a></li>
+                  <li><a class="dropdown-item" href="#">IES Alixar</a></li>
+                  <li><a class="dropdown-item" href="#">wikipedia</a></li>
+                </ul>
+              </li>
+              <li>
+                <!-- Zona de búsqueda-->
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                  </form>
+                </div>
+              </li>
+              <li>
+                <!--SILUETA D PERSONA-->
+                <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"  aria-controls="staticBackdrop">
+                  <img src="img/silueta.png" alt="Zona de usuarios">
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- OFFCANVAS CON EL FORMULARIO DE INICIO DE SESIO O REGISTRO-->
+      <div class="offcanvas offcanvas-start " data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" data-bs-theme="dark" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-warning" id="staticBackdropLabel">Bienvenido</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <form novalidate class="px-4 py-3 needs-validation">
+              <div class="form-group">
+                <label class="text-warning" for="exampleDropdownFormEmail1">Dirección de Email </label>
+                <input required type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@dominio.com">
+              </div>
+              <div class="form-group">
+                <label class="text-warning"  for="exampleDropdownFormPassword1">Contraseña</label>
+                <input required type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Una contraseña segura">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Recordarme
+                </label>
+              </div>
+              <button type="submit" class="btn btn-outline-warning">Acceder</button>
+            </form>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-warning" href="registro.html">¿Aún no tienes cuenta? Regístrate</a>
+            <a class="dropdown-item text-warning" href="olvido.html">¿Has olvidado la contraseña?</a>
+          </div>
+        </div>
+      </div>
+        <!-- FIN DEL OFFCANVAS-->
+        <div class="separacion"></div>
+
+        <div class="container mt-5">
+          <header class="text-center mb-4">
+              <h1 class="text-warning">Kenshi: Explorando un Mundo de Desafíos y Libertad</h1>
+          </header>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="card-title">Introducción</h2>
+                <p class="card-text">
+                    Kenshi es un videojuego de rol y supervivencia desarrollado por Lo-Fi Games que ha cautivado a jugadores de todo el mundo con su mundo abierto y su enfoque en la libertad y la exploración. Ambientado en un vasto y peligroso desierto, Kenshi ofrece una experiencia única donde los jugadores son libres de forjar su propio destino en un mundo repleto de desafíos y oportunidades.
+                </p>
+                  <img src="img/desierto.jpg" class="card-img-top" alt="Imagen del juego">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Exploración y Libertad</h2>
+                  
+                <p>
+                    Una de las características más destacadas de Kenshi es su enfoque en la exploración y la libertad. Los jugadores pueden recorrer libremente un vasto mundo lleno de ciudades, pueblos, ruinas y peligrosos desiertos. Desde la fundación de una colonia hasta la creación de un imperio, las posibilidades son casi infinitas en Kenshi.
+                </p>
+
+                <strong>Desafíos y Peligros</strong>
+                <p>
+                    Sin embargo, la libertad en Kenshi no viene sin sus desafíos. Los jugadores deberán enfrentarse a una variedad de peligros, incluyendo bandidos, bestias salvajes, facciones hostiles y condiciones climáticas extremas. La supervivencia en este mundo implacable requiere habilidad, planificación y, a menudo, sacrificio.
+                </p>
+
+                <strong>Personalización y Progresión</strong>
+                <p>
+                    Kenshi ofrece a los jugadores un alto grado de personalización y progresión. Desde la creación de personajes hasta el desarrollo de habilidades y la gestión de recursos, los jugadores tienen el control total sobre el destino y el crecimiento de sus personajes. Ya sea como mercenarios, comerciantes, exploradores o líderes de facción, cada elección y acción tiene consecuencias en Kenshi.
+                </p>
+
+                <strong>Recepción de los Jugadores</strong>
+                <p>
+                    Kenshi ha sido aclamado por su profundidad, su mundo inmersivo y su enfoque en la libertad del jugador. A pesar de sus gráficos modestos y su curva de aprendizaje pronunciada, el juego ha ganado una base de seguidores apasionados que elogian su singularidad y su capacidad para contar historias emergentes.
+                </p>
+                  <img src="img/kenshi2.jpg" class="card-img-top" alt="Otra imagen del juego">
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Conclusión</h2>
+                  <p class="card-text">
+                    En resumen, Kenshi es un juego que desafía las convenciones del género de rol y supervivencia, ofreciendo una experiencia única y envolvente para aquellos dispuestos a sumergirse en su mundo implacable y lleno de posibilidades. Con su enfoque en la libertad, la exploración y los desafíos, Kenshi continúa cautivando a jugadores de todo el mundo y estableciéndose como un clásico moderno en el mundo de los videojuegos.
+                
+                  </p>
+              </div>
+          </div>
+  
+          <div class="card mb-4">
+              <div class="card-body">
+                  <h2 class="card-title">Comentarios</h2>
+                  <form>
+                      <div class="form-group">
+                          <textarea class="form-control bg-secondary" id="comment" rows="5" placeholder="Escribe tu comentario aquí..."></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-outline-warning">Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+    
+      <!--FOOTER-->
+    <footer class="footer mt-auto bg-black">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 mb-3 mb-md-0">
+                  <h5 class="text-warning">Sobre Nosotros</h5>
+                  <p class="text-warning">Somos una página que quiere traerte las novedades más jugosas sobre el mundillo de los videojuegos.</p>
+              </div>
+              <div class="col-md-4"></div>
+              <div class="col-md-4 ">
+                  <h5 class="text-warning">Síguenos</h5>
+                  <a href="#" class="me-2"><img class="social" src="img/Facebook_logo_(square).png" alt="facebook"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/instagram.png" alt="instagram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/telegram.webp" alt="telegram"></a>
+                  <a href="#" class="me-2"><img class="social" src="img/X_logo_2023_(white).png" alt="X(antes conocido como twitter)"></a>
+              </div>
+          </div>
+          <div class="text-center mt-3">
+              <p class="text-warning">&copy; 2024 Keiner Hurtado. Todos los derechos reservados.</p>
+          </div>
+      </div>
+  </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>
